@@ -33,3 +33,12 @@ venv/
 dist/
 build/
 *.egg-info/
+
+# Go build artifacts
+bin/
+*.exe
+*.test
+*.out
+
+# Environment files
+.env

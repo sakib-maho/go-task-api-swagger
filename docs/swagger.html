@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task API Swagger</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    .top {
+      background: #0f172a;
+      color: #fff;
+      padding: 12px 16px;
+      font-size: 14px;
+    }
+    .top a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
+    .frame {
+      width: 100%;
+      height: calc(100vh - 44px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="top">
+    OpenAPI spec:
+    <a href="/swagger/openapi.json" target="_blank" rel="noopener noreferrer">/swagger/openapi.json</a>
+  </div>
+  <iframe id="swaggerFrame" class="frame" title="Swagger UI"></iframe>
+  <script>
+    const specURL = encodeURIComponent(window.location.origin + "/swagger/openapi.json");
+    document.getElementById("swaggerFrame").src =
+      "https://petstore.swagger.io/?url=" + specURL;
+  </script>
+</body>
+</html>

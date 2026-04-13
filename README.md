@@ -9,7 +9,7 @@ _Part of the `sakib-maho` project showcase series with consistent documentation 
 
 This repository now contains a working Go REST API starter project with Swagger/OpenAPI documentation and task CRUD endpoints.
 
-## What Is Included
+## Features
 
 - HTTP server with graceful shutdown
 - REST endpoints (`/api/v1/tasks`)
@@ -18,6 +18,22 @@ This repository now contains a working Go REST API starter project with Swagger/
 - OpenAPI spec (`docs/openapi.json`)
 - Swagger UI page (`/swagger`)
 - Makefile for common developer tasks
+
+## Quick Start
+
+```bash
+git clone https://github.com/sakib-maho/go-task-api-swagger.git
+cd go-task-api-swagger
+cp .env.example .env
+go mod tidy
+go run ./cmd/server
+```
+
+Server starts on `http://localhost:8080` by default.
+
+## License
+
+MIT - see [LICENSE](LICENSE).
 
 ## Tech Stack
 
@@ -40,18 +56,6 @@ Task status values:
 - `todo`
 - `in_progress`
 - `done`
-
-## Quick Start
-
-```bash
-git clone https://github.com/sakib-maho/go-task-api-swagger.git
-cd go-task-api-swagger
-cp .env.example .env
-go mod tidy
-go run ./cmd/server
-```
-
-Server starts on `http://localhost:8080` by default.
 
 ## Swagger / OpenAPI
 
@@ -100,7 +104,3 @@ curl "http://localhost:8080/api/v1/tasks"
 - This implementation uses an in-memory store for fast local development.
 - Data resets whenever the server restarts.
 - You can replace `internal/store` with PostgreSQL implementation later.
-
-## License
-
-MIT - see [LICENSE](LICENSE).

@@ -1,5 +1,12 @@
 # Golang Beego RestAPI Swagger (Rebuilt)
 
+<!-- BrandCloud:readme-standard -->
+[![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Showcase](https://img.shields.io/badge/Portfolio-Showcase-blue.svg)](#)
+
+_Part of the `sakib-maho` project showcase series with consistent documentation and quality standards._
+
 This repository now contains a working Go REST API starter project with Swagger/OpenAPI documentation and task CRUD endpoints.
 
 ## What Is Included

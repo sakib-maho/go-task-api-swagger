@@ -1,4 +1,4 @@
-module github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger
+module github.com/sakib-maho/go-task-api-swagger
 
 go 1.22
 

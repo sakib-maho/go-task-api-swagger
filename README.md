@@ -37,8 +37,8 @@ Task status values:
 ## Quick Start
 
 ```bash
-git clone https://github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger.git
-cd Golang-Beggo-RestAPI-Swagger
+git clone https://github.com/sakib-maho/go-task-api-swagger.git
+cd go-task-api-swagger
 cp .env.example .env
 go mod tidy
 go run ./cmd/server

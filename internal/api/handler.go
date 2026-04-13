@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger/internal/model"
-	"github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger/internal/store"
+	"github.com/sakib-maho/go-task-api-swagger/internal/model"
+	"github.com/sakib-maho/go-task-api-swagger/internal/store"
 )
 
 type Handler struct {

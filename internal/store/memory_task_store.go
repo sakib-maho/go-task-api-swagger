@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger/internal/model"
+	"github.com/sakib-maho/go-task-api-swagger/internal/model"
 )
 
 var ErrTaskNotFound = errors.New("task not found")

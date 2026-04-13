@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger/internal/api"
-	"github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger/internal/config"
-	"github.com/sakib-maho/Golang-Beggo-RestAPI-Swagger/internal/store"
+	"github.com/sakib-maho/go-task-api-swagger/internal/api"
+	"github.com/sakib-maho/go-task-api-swagger/internal/config"
+	"github.com/sakib-maho/go-task-api-swagger/internal/store"
 )
 
 func main() {
